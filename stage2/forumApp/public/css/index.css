@@ -1,0 +1,29 @@
+.header {
+	text-align: center;
+}
+
+.header .btn {
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	background: green;
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.list-grounp {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.list-grounp .list-grounp-item {
+	border: 1px solid grey;
+	border-radius: 3px;
+	margin: 2px;
+}
+
+.pull-right {
+	text-align: right;
+}
