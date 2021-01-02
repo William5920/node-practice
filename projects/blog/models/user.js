@@ -44,14 +44,15 @@ var userSchema  = new Schema({
 	},
 	birthday: {
 		type: Date,
+		
+	},
+	status: {
+		type: Number,
 		// 0 没有权限限制
 		// 1 不可以评论
 		// 2 不可以登录
 		enum: [ 0, 1, 2 ],
 		default: 0
-	},
-	status: {
-
 	}	
 })
 

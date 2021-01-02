@@ -37,5 +37,5 @@ server.on('request',function(request,response){
 
 // 4.绑定端口号，启动服务器
 server.listen('3000',function(){
-	console.log('服务器启动成功了，可以通过http://127.0.0.1:300来进行访问！');
+	console.log('服务器启动成功了，可以通过http://127.0.0.1:3000来进行访问！');
 })
